@@ -48,7 +48,14 @@ if ($formulario == "crear_sede" && $formulario != "") {
     }
 }
 
+if ($formulario == "actualizar_sede" && $formulario != "") {
+    $nombre_sede = $_POST['nombre_sede'];
+    $direccion_sede = $_POST['direccion_sede'];
+    $id = $_POST['id'];
 
+    
+    
+}
 
 
 
