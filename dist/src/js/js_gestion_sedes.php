@@ -12,7 +12,7 @@
     var dt_servicios_sede = $('#kt_customers_table').DataTable({
         "info": false,
         'order': [],
-        'pageLength': 5,
+        'pageLength': 10,
         'dom': '<"row"<"col-sm-6 col-md-4"B><"col-sm-6 col-md-4"<" btn-group">><"col-sm-6 col-md-4"f>>t<"row"<"col-sm-6 col-md-6"l><"col-sm-6 col-md-6"p>>',
         'responsive': true,
         'buttons': [{
